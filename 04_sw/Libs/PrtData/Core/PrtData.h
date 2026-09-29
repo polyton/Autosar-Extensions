@@ -1,0 +1,6 @@
+#ifndef LIBS_PRTDATA_CORE_PRTDATA_H_
+#define LIBS_PRTDATA_CORE_PRTDATA_H_
+
+void PrtData_Init(void);
+
+#endif /* LIBS_PRTDATA_CORE_PRTDATA_H_ */

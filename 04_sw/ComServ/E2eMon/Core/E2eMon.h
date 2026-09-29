@@ -1,0 +1,6 @@
+#ifndef COMSERV_E2EMON_CORE_E2EMON_H_
+#define COMSERV_E2EMON_CORE_E2EMON_H_
+
+void E2eMon_Init(void);
+
+#endif /* COMSERV_E2EMON_CORE_E2EMON_H_ */
