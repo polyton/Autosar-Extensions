@@ -1,0 +1,6 @@
+#ifndef COMSERV_COMSIGR_CORE_COMSIGR_H_
+#define COMSERV_COMSIGR_CORE_COMSIGR_H_
+
+void ComSigR_Init(void);
+
+#endif /* COMSERV_COMSIGR_CORE_COMSIGR_H_ */

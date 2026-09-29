@@ -1,0 +1,6 @@
+#ifndef DIAGENV_ENVHDL_CORE_ENVHDL_H_
+#define DIAGENV_ENVHDL_CORE_ENVHDL_H_
+
+void EnvHdl_Init(void);
+
+#endif /* DIAGENV_ENVHDL_CORE_ENVHDL_H_ */
