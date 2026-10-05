@@ -11,28 +11,47 @@ levels used by the project.
 - `index.rst` - Sphinx entry point and table of contents.
 - `conf.py` - Minimal Sphinx configuration.
 - `Makefile` - Local build commands.
+- `build.bat` - Windows build command.
 
 ## Prerequisites
 
 - Python 3.10 or newer
 - `pip`
-- GNU Make
+- GNU Make for the Unix-style build command
 
-## Install documentation tools
+## Build alternatives
 
-From the repository root, install the Python documentation dependency:
+Choose the instructions for the machine where the documentation is built.
+
+### Alternative 1: Ubuntu/Linux
+
+Install the required system packages:
 
 ```bash
-python3 -m pip install -r 02_specs/requirements.txt
+sudo apt update
+sudo apt install python3 python3-venv python3-pip make
 ```
 
-## Build HTML documentation
-
-Run the build from the repository root:
+From the repository root, create an isolated environment, install the
+documentation dependency, and build the HTML documentation:
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r 02_specs/requirements.txt
 make -C 02_specs html
 ```
+
+### Alternative 2: Windows
+
+From a Command Prompt or PowerShell opened at the repository root:
+
+```bat
+python -m pip install -r 02_specs\requirements.txt
+02_specs\build.bat
+```
+
+The batch file uses `02_specs\conf.py` and builds the HTML documentation.
 
 The generated site is written to:
 
