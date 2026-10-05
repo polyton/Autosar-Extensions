@@ -1,0 +1,6 @@
+#ifndef BSW_IOHWAB_LATCHCTRL_CORE_LATCHCTRL_H_
+#define BSW_IOHWAB_LATCHCTRL_CORE_LATCHCTRL_H_
+
+void LatchCtrl_Init(void);
+
+#endif
