@@ -102,7 +102,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3_I26l3GnxyrjKkEC0MC" name="BuildingBlocks">
-    <mxGraphModel dx="1987" dy="1203" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1370" dy="830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,7 +244,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pMO9dmu4uBUpIiJiKWx_-49" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="«In-house»&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;McuFaultSupervisor&lt;/b&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="pMO9dmu4uBUpIiJiKWx_-49" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="«In-house»&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;McuFaultHdl&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="53" width="115" x="961.0000000000001" y="680" as="geometry" />
         </mxCell>
         <mxCell id="pMO9dmu4uBUpIiJiKWx_-50" parent="pMO9dmu4uBUpIiJiKWx_-49" style="shape=module;jettyWidth=8;jettyHeight=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
@@ -407,7 +407,7 @@
         <mxCell id="pMO9dmu4uBUpIiJiKWx_-91" parent="1" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;horizontal=1;verticalAlign=top;align=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="HW Monitoring" vertex="1">
           <mxGeometry height="89" width="285.25" x="946" y="554" as="geometry" />
         </mxCell>
-        <mxCell id="pMO9dmu4uBUpIiJiKWx_-92" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="«In-house»&lt;br&gt;&lt;span&gt;&lt;b&gt;HwFault&lt;/b&gt;&lt;/span&gt;&lt;b&gt;Supervisor&lt;/b&gt;" vertex="1">
+        <mxCell id="pMO9dmu4uBUpIiJiKWx_-92" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="«In-house»&lt;br&gt;&lt;span&gt;&lt;b&gt;HwFault&lt;/b&gt;&lt;/span&gt;&lt;b&gt;Hdl&lt;/b&gt;" vertex="1">
           <mxGeometry height="53" width="115" x="961.0000000000001" y="586" as="geometry" />
         </mxCell>
         <mxCell id="pMO9dmu4uBUpIiJiKWx_-93" parent="pMO9dmu4uBUpIiJiKWx_-92" style="shape=module;jettyWidth=8;jettyHeight=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
@@ -600,6 +600,22 @@
           <mxGeometry height="53" width="115" x="934" y="859" as="geometry" />
         </mxCell>
         <mxCell id="1KnrX2shlhiXuDkeCu0M-5" parent="1KnrX2shlhiXuDkeCu0M-4" style="shape=module;jettyWidth=8;jettyHeight=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgacDmYpaWNYnNn_wfFl-1" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="«In-house»&lt;br&gt;&lt;span&gt;&lt;b&gt;VoltMon&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="53" width="115" x="934" y="923" as="geometry" />
+        </mxCell>
+        <mxCell id="BgacDmYpaWNYnNn_wfFl-2" parent="BgacDmYpaWNYnNn_wfFl-1" style="shape=module;jettyWidth=8;jettyHeight=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgacDmYpaWNYnNn_wfFl-3" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fontStyle=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="«In-house»&lt;br&gt;&lt;span&gt;&lt;b&gt;E2eMon&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="53" width="115" x="745" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="BgacDmYpaWNYnNn_wfFl-4" parent="BgacDmYpaWNYnNn_wfFl-3" style="shape=module;jettyWidth=8;jettyHeight=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
           <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>

@@ -1,0 +1,6 @@
+#ifndef BSW_IOHWAB_SHIFTREG_CORE_SHIFTREG_H_
+#define BSW_IOHWAB_SHIFTREG_CORE_SHIFTREG_H_
+
+void ShiftReg_Init(void);
+
+#endif
